@@ -13,7 +13,18 @@ Project Matrix is a module for Roblox that can do operations with matrices, allo
 ---
 
 ## Installation
-// Coming Later //
+
+### .rbxm Installation
+1-Install the latest version with `-rbxm` at the end from the GitHub page.
+2-Extract the .zip file.
+3-Open up the folder and drag the `.rbxm` file to the explorer in Roblox Studio.
+
+### .lua Installation
+1-Install the latest version with `-lua` at the end from the GitHub page.
+2-Extract the .zip file.
+3-Open the folder and Roblox Studio.
+4-Create a `ModuleScript` named `ProjectMatrix` and a child `ModuleScript` named `MatrixClass` in the explorer.
+5-Open up the `.lua` files with notepad(or VS Code. It doesn't matter what you use) and copy the code from the files then paste them to the corresponding `Module Scripts` in Roblox Studio
 
 ---
 
