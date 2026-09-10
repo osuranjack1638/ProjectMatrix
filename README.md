@@ -199,3 +199,5 @@ local IsEqual2 = Matrix == CopiedMatrix -- // The variable will equal to "false"
 ```
 
 ---
+
+I will be maintaining this library. So, please create an issue if you find a bug.
