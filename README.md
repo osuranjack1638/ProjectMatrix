@@ -12,6 +12,11 @@ Project Matrix is a module for Roblox that can do operations with matrices, allo
 
 ---
 
+## Installation
+// Coming Later //
+
+---
+
 ## Functions
 
 ### ProjectMatrix.CreateMatrix()
@@ -165,3 +170,21 @@ local MatrixC = MatrixA * MatrixB
 local MatrixD = MatrixC * 2
 -- // Multiplies MatrixC with 2
 ```
+
+### Equality
+Checks if 2 matrices are equal to each other.
+
+Function name: Equal()
+
+**Usage:**
+```lua
+local ProjectMatrix = require(Path.to.ProjectMatrix)
+
+local Matrix = ProjectMatrix.CreateMatrix("2x2", 0)
+local CopiedMatrix = Matrix:Copy()
+local IsEqual = Matrix == CopiedMatrix -- // The variable will equal to "true" in this case
+CopiedMatrix:Set(1, 1, 99)
+local IsEqual2 = Matrix == CopiedMatrix -- // The variable will equal to "false" in this case
+```
+
+---
