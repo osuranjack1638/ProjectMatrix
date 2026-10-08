@@ -81,9 +81,9 @@ local ProjectMatrix = require(Path.to.ProjectMatrix)
 
 local Matrix = ProjectMatrix.CreateMatrix("2x2", 0)
 Matrix:Set(1, 1, 9)
-print(Matrix:Get(1, 1)
--- // This prints 1 because we just changed that cell to be 9.
-print(Matrix:Get(1, 2)
+print(Matrix:Get(1, 1))
+-- // This prints 9 because we just changed that cell to be 9.
+print(Matrix:Get(1, 2))
 -- // This prints 0 because we never changed this cell and the default value for it was 0.
 ```
 
